@@ -1,0 +1,160 @@
+.about-heading {
+    margin-top: 7rem;
+    text-align: center;
+    position: relative;
+}
+
+.about-heading img {
+    position: relative;
+    width: 100%;
+    height: 10rem;
+    background-size: cover;
+}
+
+.about-heading h1 {
+    top: 22%;
+    color: white;
+    left: 40%;
+    font-size: 4em;
+    position: absolute;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2rem 6rem;
+    gap: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-about-content img {
+    border-radius: 10px;
+    width: 25rem;
+}
+
+.left-about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-about-content h1 {
+    font-size: 3.4em;
+    color: #FB6C26;
+}
+
+.left-about-content h1 span {
+    font-weight: 400;
+}
+
+.left-about-content p {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+.mission h2 {
+    font-size: 2em;
+    color: #FB6C26;
+}
+
+.left-mission p {
+    font-size: 1.2em;
+}
+
+.left-mission {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.team p {
+    color: #9EA7C4;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.team {
+    margin: 2rem 6rem;
+}
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+}
+
+.team h1 {
+    font-size: 3em;
+    color: #FB6C26;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member img {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.become-vollunteer {
+    display: flex;
+    justify-content: center;
+    margin: 4rem 0rem;
+}
+
+.become-vollunteer button {
+    width: 20rem;
+    height: 3rem;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #FB6C26;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    transition: 0.3s;
+}
+
+.become-vollunteer button a {
+    text-decoration: none;
+    color: #FB6C26;
+}
+
+.become-vollunteer button:hover {
+    background-color: #FB6C26;
+    color: white;
+}
+
+.become-vollunteer button:hover a {
+    color: white;
+}
+
+.donors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.donors p {
+    color: #9EA7C4;
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.donors h1 {
+    font-size: 3em;
+    color: #FB6C26;
+}
+
+.donors img {
+    width: 100%;
+}

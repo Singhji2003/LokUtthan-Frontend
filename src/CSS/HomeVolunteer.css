@@ -1,0 +1,30 @@
+.home-volunteer {
+    margin: 5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.right-home-volunteer {
+    width: 60%;
+}
+
+.each-volunteer-heading {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.each-volunteer-content {
+    margin-left: 5rem;
+}
+
+.each-volunteer {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-home-volunteer img {
+    border-radius: 20px;
+    width: 40vw;
+}

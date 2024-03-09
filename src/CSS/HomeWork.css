@@ -1,0 +1,67 @@
+.home-work {
+    margin: 5rem;
+}
+
+.home-work h1 {
+    font-size: 2.5em;
+}
+
+.home-work-card {
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+
+}
+
+.home-work p {
+    font-size: 1.2em;
+    margin: 1rem 0rem;
+    letter-spacing: 0.5px;
+}
+
+.each-work-card {
+    width: 30%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(214, 212, 212);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.each-work-card:hover {
+    box-shadow: 0px 0px 100px rgb(214, 212, 212);
+    transform: scale(1.02);
+}
+
+.each-work-card img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.each-work-card h2 {
+    font-size: 1.2em;
+    margin: 0rem 1.5rem;
+}
+
+.each-work-card a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin: 0rem 1.5rem;
+    margin-bottom: 10px;
+}
+
+.each-work-card p {
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    margin: 0rem 1.5rem;
+}
+
+.home-review-heading {
+    flex-direction: column;
+    gap: 13px;
+    display: flex;
+}

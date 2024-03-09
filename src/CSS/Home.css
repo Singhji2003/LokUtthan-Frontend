@@ -1,0 +1,55 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem 5rem;
+}
+
+.right-home img {
+    width: 30rem;
+    border-radius: 10px;
+}
+
+.left-home {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.left-home h1 {
+    font-size: 4em;
+}
+
+.left-home h1 span {
+    color: #FB6C26;
+}
+
+.left-home p {
+    font-size: 1.1em;
+}
+
+.home-buttons button {
+    width: 10rem;
+    height: 3rem;
+    background-color: #FB6C26;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.home-buttons button:hover {
+    box-shadow: 0px 0px 8px #FB6C26;
+}
+
+.home-buttons span {
+    font-size: 1.3em;
+}
+
+.home-buttons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

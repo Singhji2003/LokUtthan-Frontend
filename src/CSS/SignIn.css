@@ -1,0 +1,140 @@
+.signup h1 {
+    color: white;
+    text-align: center;
+}
+
+.signup {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 30px 30px 30px;
+    width: 450px;
+    background-color: #FB6C26;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 10px rgb(2, 128, 156);
+}
+
+.signup::before,
+.signup::after {
+    content: "";
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 40%;
+}
+
+.signup::before {
+    left: 40%;
+    bottom: -0%;
+    background-color: rgba(255, 255, 255, 0.096);
+    animation: wave 7s infinite;
+    z-index: -1;
+}
+
+.signup::after {
+    left: 50%;
+    bottom: 0%;
+    background-color: rgba(255, 255, 255, 0.103);
+    animation: wave 7s infinite;
+    z-index: -1;
+}
+
+@keyframes wave {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.signup input {
+    display: block;
+    width: 100%;
+    margin: 30px 0;
+    padding: 10px 3px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #ffd4b7;
+    font-size: 1.2em;
+    color: white;
+}
+
+.signup button {
+    width: 120px;
+    padding: 10px 15px;
+    background-color: white;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.signup input::placeholder {
+    color: white;
+    padding-bottom: 10px;
+}
+
+#sin {
+    position: relative;
+    left: 38%;
+}
+
+.but a {
+    text-decoration: none;
+    color: #000;
+}
+
+.signup button:hover {
+    box-shadow: 0px 0px 8px white;
+}
+
+.signup p {
+    font-size: 1.2em;
+    color: white;
+
+}
+
+.signup p a {
+    text-decoration: none;
+}
+
+.signup p a:hover {
+    text-decoration: underline;
+}
+
+.password {
+    display: flex;
+    position: relative;
+    height: 4rem;
+}
+
+.password input {
+    margin-top: -0px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.password i {
+    position: absolute;
+    color: white;
+    z-index: 99;
+    font-size: 1.2em;
+    cursor: pointer;
+    right: 2rem;
+    top: 0rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}

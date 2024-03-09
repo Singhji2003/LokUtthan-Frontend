@@ -1,0 +1,44 @@
+.home-about {
+    display: flex;
+    padding: 2rem 5rem;
+    gap: 1rem;
+    background-color: #FB6C26;
+
+}
+
+.left-home-about {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right-home-about img {
+    width: 40rem;
+    border-radius: 20px;
+}
+
+.left-home-about h1 {
+    font-size: 2.8em;
+}
+
+.left-home-about p {
+    font-size: 1.2em;
+}
+
+.left-home-about {
+    color: white;
+}
+
+.left-home-about button {
+    width: 8rem;
+    height: 2.3rem;
+    background-color: white;
+    border: none;
+    color: #FB6C26;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.left-home-about button:hover {
+    box-shadow: 0px 0px 8px white;
+}

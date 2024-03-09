@@ -1,0 +1,171 @@
+.login h1 {
+    color: white;
+    text-align: center;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 30px 30px 30px;
+    width: 450px;
+    background-color: #FB6C26;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 10px 10px rgb(2, 128, 156);
+}
+
+.login::before,
+.login::after {
+    content: "";
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 45%;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 40%;
+}
+
+.login::before {
+    left: 40%;
+    bottom: -130%;
+    background-color: rgba(255, 255, 255, 0.096);
+    animation: wave 7s infinite;
+    z-index: -1;
+}
+
+.login::after {
+    left: 35%;
+    bottom: -125%;
+    background-color: rgba(255, 255, 255, 0.103);
+    animation: wave 7s infinite;
+    z-index: -1;
+}
+
+@keyframes wave {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.login>input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 5px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #ffd4b7;
+    font-size: 18px;
+    color: white;
+}
+
+.password input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px 3px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #ffd4b7;
+    font-size: 18px;
+    color: white;
+}
+
+.login input::placeholder {
+    color: white;
+}
+
+.but a {
+    text-decoration: none;
+    color: #000;
+}
+
+.login button {
+    width: 120px;
+    padding: 5px 10px;
+    background-color: white;
+    display: flex;
+    border: 0;
+    border-radius: 4px;
+    margin: 2px auto;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+
+.login button:hover {
+    box-shadow: 0px 0px 8px white;
+}
+
+.login p {
+    text-align: left;
+    display: flex;
+    gap: 10px;
+    color: #fff;
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.login p input {
+    width: 1.1rem;
+}
+
+.login p>a {
+    text-decoration: none;
+    color: white;
+}
+
+#sssd {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.password {
+    display: flex;
+    position: relative;
+}
+
+.password input {
+    margin-top: -0px;
+    position: relative;
+}
+
+.password i {
+    position: absolute;
+    top: 18px;
+    color: white;
+    z-index: 99;
+    font-size: 1.2em;
+    cursor: pointer;
+    right: 2rem;
+}
+
+.not-account {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    font-size: 1.1em;
+}
+
+.submit-button {
+    display: flex;
+    /* position: relative; */
+    align-items: center;
+}
+
+.submit-button button {
+    position: relative;
+}
